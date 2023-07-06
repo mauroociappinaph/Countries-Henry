@@ -1,0 +1,130 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.prindiv {
+    background-image: url('../img/tierra-azul-verde-globo-pizarra.jpg');
+    background-size: cover;
+    width: auto;
+    height: 120vh;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    align-content: center;
+    justify-content: center;
+    display: block;
+    
+}
+
+.bar {
+
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    width: 100%;
+    display: inline-flex;
+       
+}
+
+.bothome {
+    height: 115px;
+        
+}
+
+.bothome:hover {
+    height: 106px;
+    opacity: 90%;
+}
+
+.cardd {
+    border-radius: 2rem;
+    margin: 40px;
+    background-color: orange;
+    min-height: 500px;
+    width:fit-content;
+    justify-content: center;
+    align-items: center;
+    display:inline-flex;
+    padding-right: 70px;
+   
+}
+
+.conpais {
+    margin-top: -50px;
+    padding-left: 50px;
+}
+
+.conact {
+    width: 200px;
+    margin-left: 70px;
+    border-radius: 3%;
+    margin: 40px;
+    background-color: rgba(255, 255, 255, 0.362);
+    position: relative;
+    left: 50px;
+    
+}
+
+.titulod {
+    color: rgb(58, 76, 90);
+    text-align: center;
+}
+
+.banderad {
+    border-radius: 5px;
+    width: 12em;
+    height: 7.5em;
+    margin-bottom: -10px;
+    
+}
+
+.nombred {
+    color: white;
+    font-weight: bolder;
+    font-size:xx-large;
+    text-align: center;
+    margin-bottom: -15px;
+}
+
+.continented {
+    color: rgb(9, 57, 154);
+    text-align: center;
+    font-size: large;
+    margin-bottom: -15px;
+}
+
+.codigo {
+    color: rgb(9, 57, 154);
+    text-align: center;
+    
+}
+
+.detalle {
+    color: rgb(58, 76, 90);
+    margin: 4px;
+
+}
+
+.nombreact {
+    color: rgb(9, 57, 154);
+    margin-bottom: 8px;
+}
+
+.botactd {
+    font-weight: bold;
+    font-size: x-small;
+    padding: 4px;
+    margin: 20px;
+    font-family:'Verdana';
+    background-color: white;
+    border-color: #07648f;
+    color:orange;
+    border-radius: 5px;
+
+}
+
+.botactd:hover {
+    background-color: orange;
+
+    color: white;
+}

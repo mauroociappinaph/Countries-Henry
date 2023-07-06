@@ -10,11 +10,12 @@ const formatCountryData = (countryData) => {
     id: countryData.cca3,
     name : countryData.name.common || 'No name',
     imgFlag: countryData.flags[1] || 'No flag',
-    continent: countryData.region || 'No continent',
+    continent: countryData.continent || 'No continent',
     capital: countryData.capital?.[0] || 'No capital',
     subregion: countryData.subregion || 'No subregion',
     area: countryData.area  || 0,
     population: countryData.population || 0,
+    
    
   } 
    

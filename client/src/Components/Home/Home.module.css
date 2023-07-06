@@ -1,0 +1,51 @@
+.prindiv {
+    background-image: url('../img/home.png');
+    background-size: cover;
+    width: 100%;
+    height: 100vmax;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    /* display: flex;
+    flex-wrap: wrap; */
+}
+
+
+.contenedorCards {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    
+}
+
+.filtros {
+    display: flex;
+   justify-content: center;
+
+   
+    align-items: center;
+    color: blanchedalmond;
+    font-weight: bold;
+    padding: 5px 20px 5px 20px;
+    font-family: 'Arvo', serif;
+    margin: 25px 0px 15px 0px;
+}
+
+.select {
+    border-radius: 5px;
+    border-color: #07648f;
+    padding: 3px;
+    margin: 8px;
+    width: 150px;
+    font-size: medium;
+
+
+}
+
+.paginado {
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 2px;
+}

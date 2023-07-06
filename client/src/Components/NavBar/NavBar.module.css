@@ -1,0 +1,58 @@
+.navbar {
+    
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+ padding: auto;
+            
+}
+
+.bothome {
+    height: 95px;
+}
+
+.bothome:hover {
+    height: 99px;
+    opacity: 90%;
+}
+
+.botact {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+    font-family: 'Arvo', serif;
+    font-weight: 700;
+    font-size: medium;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .botact:hover {
+    background-color: orange;
+    color: white;
+  }
+  
+
+.search {
+    padding: 5px;
+    margin-top: 15px;           
+}
+
+.searchtitle {
+    color:antiquewhite;
+    font-family: 'Arvo', serif;
+    font-weight: bolder;
+    font-size: 1.4rem;
+}
+
+.searchinp {
+    border-radius: 5px;
+    margin: 8px;
+    padding: 3px;
+}
+

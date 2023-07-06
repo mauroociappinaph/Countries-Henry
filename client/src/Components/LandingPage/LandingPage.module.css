@@ -1,0 +1,55 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.conPrin {
+    background: url("../img/tierra-azul-verde-globo-pizarra.jpg");
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.homepage {
+    margin: 40px;
+    width: 70%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgLanding {
+    height: 50%;
+   margin: auto;
+}
+
+.welcome {
+  
+    display: flex;
+    justify-content: flex-end;
+}
+
+.boton {
+    width: 100%;
+    border-radius: 10px;
+    font-size: large;
+    font-style: normal;
+    background-color: orange;
+    color: white; 
+    padding: 10px 20px;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+}
+
+.boton:hover {
+    background-color: white;
+    color: orange;
+    font-weight: bold;
+    transform: scale(1.05);
+}

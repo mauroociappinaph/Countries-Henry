@@ -1,0 +1,104 @@
+/* FormPage.module.css */
+
+.container {
+    background-image: url('../img/tierra-azul-verde-globo-pizarra.jpg');
+    background-size: cover;
+    width: auto;
+    height: 120vh;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .formContainer {
+    border-radius: 3%;
+    margin: 40px auto;
+    background-color: rgba(239, 236, 216, 0.69);
+    justify-content: center;
+    align-items: center;
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px;
+  }
+  
+  .form {
+    width: 100%;
+  }
+  
+  .inputContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 10px;
+  }
+  
+  .label {
+    font-weight: bold;
+    color: black;
+    text-align: right;
+    font-size: large;
+    margin: 5px;
+    margin-bottom: 8px;
+  }
+  
+  .input {
+    border-color: rgba(239, 236, 216, 0.69);
+    border-radius: 4px;
+    width: 100%;
+    padding: 5px;
+    font-size: medium;
+    color: rgb(113, 99, 18);
+    margin-top: 5px;
+    margin-bottom: 8px;
+  }
+  
+  .submitButton {
+    font-weight: bold;
+    font-size: medium;
+    padding: 10px 20px;
+    margin: 20px;
+    font-family: 'Verdana';
+    background-color: orange;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submitButton:hover {
+    background-color: black;
+  }
+  
+  .countryContainer {
+    display: flex;
+    flex-flow: row;
+  }
+  
+  .country {
+    text-align: center;
+    font-size: large;
+    margin: 5px;
+    font-weight: bold;
+  }
+  
+  .deleteButton {
+    font-size: x-small;
+    font-weight: bold;
+    background-color: red;
+    border-radius: 100%;
+    border-width: 0ch;
+    height: fit-content;
+    width: fit-content;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+  
