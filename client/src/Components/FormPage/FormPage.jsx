@@ -109,7 +109,7 @@ export default function FormPage() {
         <Link to="/home">
           <img
             className={s.logo}
-            onClick={(event) => handleClick(event)}
+            onClick={handleClick}
             src={logo}
             alt="logo"
           ></img>

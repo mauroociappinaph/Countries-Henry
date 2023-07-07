@@ -43,9 +43,10 @@ export default function Home() {
     dispatch(getActivities());
   }, [dispatch]);
 
-  function handleFilteredCountrie(event) {
-    setContinent(event.target.value);
-    dispatch(filterByContinents(event.target.value));
+const handleFilteredCountrie = (e)=> { 
+  const {value} = e.target
+    setContinent(value);
+    dispatch(filterByContinents(value));
   }
 
   function handleSort(event) {
